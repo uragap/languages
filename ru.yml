@@ -1,0 +1,104 @@
+tax_id: "УНП %{tax_id}"
+merchant_support: 'Консультации и поддержка:'
+transaction_details: 'Детали операции'
+transaction_date: 'Дата:'
+transaction_number: 'Номер:'
+transaction_type: 'Тип:'
+short_transaction_status: 'Статус:'
+payment_type: 'Способ оплаты:'
+payment_receipt: 'Электронный чек оплаты'
+secure_payment_provided: 'Безопасная оплата обеспечивается '
+support_title: 'Служба поддержки 24/7:'
+error_message: 'Не удалось совершить транзакцию. Попробуйте позднее. Если данная ошибка возникла повторно, обратитесь в ваш банк для разъяснения причин. Телефон банка указан на обратной стороне карты.'
+refund_message: 'Согласно правилам международных платежных систем срок поступления средств на карту - от 3 до 30 дней.'
+transactions:
+authorization:
+  name: 'Авторизация'
+  successful:
+    short_status: 'Успешный'
+    status: 'Сумма успешно заблокирована'
+    subject: "Уведомление об успешной оплате"
+  failed:
+    short_status: 'Неуспешный'
+    status: 'Платеж отклонен'
+    subject: "Ваш платеж был отклонен"
+capture:
+  name: 'Списание'
+  successful:
+    short_status: 'Успешный'
+    status: 'Успешное списание'
+    subject: 'Уведомление о cписании средств'
+  failed:
+    short_status: 'Неуспешный'
+    status: 'Неуспешное списание'
+    subject: 'Уведомление о cписании средств'
+void:
+  name: 'Отмена авторизации'
+  successful:
+    short_status: 'Успешный'
+    status: 'Списание отклонено'
+    subject: "Уведомление об отмене платежа"
+  failed:
+    short_status: 'Неуспешный'
+    status: 'Отмена авторизации не произошла'
+    subject: "Уведомление об отмене платежа"
+payment:
+  name: 'Списание'
+  successful:
+    short_status: 'Успешный'
+    status: 'Успешная оплата'
+    subject: "Уведомление об успешной оплате"
+  failed:
+    short_status: 'Неуспешный'
+    status: 'Платеж отклонен'
+    subject: "Ваш платеж был отклонен"
+refund:
+  name: 'Возврат средств'
+  successful:
+    short_status: 'Успешный'
+    status: 'Возврат средств одобрен'
+    subject: "Уведомление о возврате средств"
+  failed:
+    short_status: 'Неуспешный'
+    status: 'Возврат средств не одобрен'
+    subject: "Уведомление о возврате средств"
+chargeback:
+  name: 'Оспоренный платеж'
+  successful:
+    short_status: 'Успешный'
+    status: 'Платеж оспорен'
+    subject: "Уведомление о возврате средств"
+  failed:
+    short_status: 'Неуспешный'
+    status: 'Платеж не оспорен'
+    subject: "Уведомление о возврате средств"
+payout:
+  name: 'Выплата'
+  successful:
+    short_status: 'Успешный'
+    status: 'Успешная выплата'
+    subject: "Уведомление о выплате средств"
+  failed:
+    short_status: 'Неуспешный'
+    status: 'Выплата отклонена'
+    subject: "Уведомление о выплате средств"
+p2p:
+  name: 'P2P'
+  successful:
+    short_status: 'Успешный'
+    status: 'Успешный перевод'
+    subject: "Уведомление о переводе с карты на карту"
+  failed:
+    short_status: 'Неуспешный'
+    status: 'Перевод отклонен'
+    subject: "Уведомление о переводе с карты на карту"
+payment_method:
+credit_card:
+  number: 'Номер карты:'
+  holder: 'Имя на карте:'
+erip:
+  account_number: 'Номер счёта (заказа/договора/...) в ЕРИП:'
+  service_no: 'Код услуги ЕРИП:'
+  transaction_id: 'Номер транзакции ЕРИП:'
+alternative:
+  account: 'Идентификатор плательщика:'

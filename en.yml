@@ -1,0 +1,104 @@
+tax_id: "Tax ID %{tax_id}"
+merchant_support: 'Advice and support:'
+transaction_details: 'Billing details:'
+transaction_date: 'Date:'
+transaction_number: 'Transaction UID:'
+transaction_type: 'Type:'
+short_transaction_status: 'Status:'
+payment_type: 'Payment method:'
+payment_receipt: 'Electronic check about payment'
+secure_payment_provided: 'Billing services provided by '
+support_title: '24/7 Support service:'
+error_message: 'We failed to process the transaction. Check the entered data and the account balance.'
+refund_message: 'It will take up to 30 days to reflect the refund at your card account.'
+transactions:
+  authorization:
+    name: 'Authorization'
+    successful:
+      short_status: 'Successful'
+      status: 'Amount was successfully authorized'
+      subject: 'Confirmation of successful payment'
+    failed:
+      short_status: 'Failed'
+      status: 'Transaction was declined'
+      subject: 'Your payment has been declined'
+  capture:
+    name: 'Capture'
+    successful:
+      short_status: 'Successful'
+      status: 'Amount was successfully charged'
+      subject: 'Capture confirmation'
+    failed:
+      short_status: 'Failed'
+      status: 'Capture was declined'
+      subject: 'Capture confirmation'
+  void:
+    name: 'Void'
+    successful:
+      short_status: 'Successful'
+      status: 'Payment void was successful'
+      subject: 'Payment void confirmation'
+    failed:
+      short_status: 'Failed'
+      status: 'Payment void was declined'
+      subject: 'Payment void confirmation'
+  payment:
+    name: 'Payment'
+    successful:
+      short_status: 'Successful'
+      status: 'Successful payment'
+      subject: 'Confirmation of successful payment'
+    failed:
+      short_status: 'Failed'
+      status: 'Payment was declined'
+      subject: 'Your payment has been declined'
+  refund:
+    name: 'Refund'
+    successful:
+      short_status: 'Successful'
+      status: 'Refund was approved'
+      subject: 'Payment refund confirmation'
+    failed:
+      short_status: 'Failed'
+      status: 'Refund was declined'
+      subject: 'Payment refund confirmation'
+  chargeback:
+    name: 'Chargeback'
+    successful:
+      short_status: 'Successful'
+      status: 'Payment was charged back'
+      subject: 'Chargeback confirmation'
+    failed:
+      short_status: 'Failed'
+      status: 'Chaegeback was declined'
+      subject: 'Chargeback confirmation'
+  payout:
+    name: 'Payout'
+    successful:
+      short_status: 'Successful'
+      status: 'Successful payout'
+      subject: 'Payout confirmation'
+    failed:
+      short_status: 'Failed'
+      status: 'Payout was declined'
+      subject: 'Payout confirmation'
+  p2p:
+    name: 'P2P'
+    successful:
+      short_status: 'Successful'
+      status: 'Successful transaction'
+      subject: 'P2p confirmation'
+    failed:
+      short_status: 'Failed'
+      status: 'Transaction was declined'
+      subject: 'P2p confirmation'
+payment_method:
+  credit_card:
+    number: 'Card Number:'
+    holder: 'Name on card:'
+  erip:
+    account_number: 'ERIP bill (order/agreement/...) ID:'
+    service_no: 'ERIP service id:'
+    transaction_id: 'ERIP transaction id:'
+  alternative:
+    account: 'Account:'
