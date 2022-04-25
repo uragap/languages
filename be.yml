@@ -1,0 +1,98 @@
+---
+tax_id: УНП %{tax_id}
+transaction_details: Інфармацыя пра заказ
+transaction_date: 'Дата:'
+transaction_number: 'Нумар:'
+transaction_type: 'Тып:'
+short_transaction_status: 'Статус:'
+payment_type: 'Спосаб аплаты:'
+secure_payment_provided: 'Паслугі па аплаце прадастаўленыя '
+error_message: Апрацаваць трансакцыю не ўдалося. Праверце ўведзеныя даныя і баланс
+  рахунку.
+refund_message: Згодна з правіламі міжнародных плацежных сістэм тэрмін паступлення
+  сродкаў на карту - ад 3 да 30 дзён.
+transactions:
+  authorization:
+    name: Аўтарызацыя
+    successful:
+      short_status: Паспяховы
+      status: Сума аўтарызавана
+      subject: Паведамленне пра паспяховую аплату
+    failed:
+      short_status: Беспаспяховы
+      status: Трансакцыя адхілена
+      subject: Ваш плацёж адхілены
+  capture:
+    name: Спісанне сродкаў
+    successful:
+      short_status: Паспяховы
+      status: Сума спагнана
+      subject: Паведамленне пра спісанне сродкаў
+    failed:
+      short_status: Беспаспяховы
+      status: Спагнанне адхілена
+      subject: Паведамленне пра спісанне сродкаў
+  void:
+    name: Скасаванне аўтарызацыі
+    successful:
+      short_status: Паспяховы
+      subject: Паведамленне пра скасаванне пляцяжу
+    failed:
+      short_status: Беспаспяховы
+      subject: Паведамленне пра скасаванне пляцяжу
+  payment:
+    name: Плацёж
+    successful:
+      short_status: Паспяховы
+      status: Плацеж зроблены
+      subject: Паведамленне пра паспяховую аплату
+    failed:
+      short_status: Беспаспяховы
+      status: Плацеж адхілены
+      subject: Ваш плацёж адхілены
+  refund:
+    name: Зварот сродкаў
+    successful:
+      short_status: Паспяховы
+      status: Кампенсацыя ўхвалена
+      subject: Паведамленне пра зварот сродкаў
+    failed:
+      short_status: Беспаспяховы
+      subject: Паведамленне пра зварот сродкаў
+  chargeback:
+    name: Адмена
+    successful:
+      short_status: Паспяховы
+      status: Плацеж вернуты
+      subject: Паведамленне пра зварот сродкаў
+    failed:
+      short_status: Беспаспяховы
+      subject: Паведамленне пра зварот сродкаў
+  payout:
+    name: Выплата
+    successful:
+      short_status: Паспяховы
+      status: Выплата зроблена
+      subject: Паведамленне пра выплату сродкаў
+    failed:
+      short_status: Беспаспяховы
+      subject: Паведамленне пра выплату сродкаў
+  p2p:
+    name: P2P
+    successful:
+      short_status: Паспяховы
+      status: Трансакцыя зроблена
+      subject: Паведамленне пра перавод з карты на карту
+    failed:
+      short_status: Беспаспяховы
+      subject: Паведамленне пра перавод з карты на карту
+payment_method:
+  credit_card:
+    number: 'Нумар карткі:'
+    holder: 'Імя на картцы:'
+  erip:
+    account_number: 'Нумар рахунку (заказу/дагавору/...) у АРІП:'
+    service_no: 'Код паслугі АРІП:'
+    transaction_id: 'Нумар транзакцыі АРІП:'
+  alternative:
+    account: 'Ідэнтыфікатар плацельшчыка:'
