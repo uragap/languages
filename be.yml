@@ -1,5 +1,6 @@
 ---
 tax_id: УНП %{tax_id}
+merchant_support: 'Консультации:'
 transaction_details: Інфармацыя пра заказ
 transaction_date: 'Дата:'
 transaction_number: 'Нумар:'
